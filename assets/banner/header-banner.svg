@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="bannerTitle bannerDesc">
+  <title id="bannerTitle">Umair Asfar — Junior Full Stack Developer</title>
+  <desc id="bannerDesc">Animated dark banner in electric cyan and blue: a drifting gradient mesh, a pulsing network of connected nodes, floating particles, faint code symbols, and neon-glow text introducing Umair Asfar, Junior Full Stack Developer.</desc>
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090c12"/>
+      <stop offset="50%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#090c12"/>
+    </linearGradient>
+
+    <radialGradient id="meshA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00d9ff" stop-opacity="0.38"/>
+      <stop offset="100%" stop-color="#00d9ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="meshB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="meshC" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#8fedff"/>
+      <stop offset="100%" stop-color="#00d9ff"/>
+    </linearGradient>
+
+    <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d9ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#8fedff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#00d9ff" stop-opacity="0"/>
+      <animate attributeName="x1" values="-20%;120%" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0%;140%" dur="4.5s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00d9ff" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+
+    <filter id="softBlur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="34"/>
+    </filter>
+
+    <filter id="neonGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="nodeGlow" x="-150%" y="-150%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Base background + grid -->
+  <rect width="1200" height="280" fill="url(#bgGrad)"/>
+  <rect width="1200" height="280" fill="url(#grid)"/>
+
+  <!-- Animated gradient mesh -->
+  <g filter="url(#softBlur)">
+    <circle cx="150" cy="55" r="180" fill="url(#meshA)">
+      <animate attributeName="cx" values="150;270;150" dur="19s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="55;135;55" dur="23s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1060" cy="225" r="200" fill="url(#meshB)">
+      <animate attributeName="cx" values="1060;940;1060" dur="21s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="225;135;225" dur="17s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="620" cy="10" r="150" fill="url(#meshC)">
+      <animate attributeName="cy" values="10;80;10" dur="15s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Floating code symbols -->
+  <g font-family="Consolas, 'Courier New', monospace" fill="#7fe3ff" font-weight="600">
+    <g>
+      <text x="70" y="70" font-size="26" opacity="0.14">{ }</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="13s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <text x="60" y="235" font-size="22" opacity="0.12">&lt;/&gt;</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 7;0 0" dur="15s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <text x="985" y="55" font-size="20" opacity="0.13">const</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="11s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <text x="1040" y="205" font-size="24" opacity="0.14">=&gt;</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 8;0 0" dur="14s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <text x="895" y="245" font-size="19" opacity="0.12">async</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" dur="16s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <text x="150" y="150" font-size="18" opacity="0.10">01</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 6;0 0" dur="12s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- Network: connecting lines -->
+  <g stroke="#00d9ff" stroke-width="1">
+    <line x1="90" y1="205" x2="215" y2="155">
+      <animate attributeName="stroke-opacity" values="0.15;0.5;0.15" dur="6s" repeatCount="indefinite"/>
+    </line>
+    <line x1="215" y1="155" x2="330" y2="205">
+      <animate attributeName="stroke-opacity" values="0.5;0.15;0.5" dur="7s" repeatCount="indefinite"/>
+    </line>
+    <line x1="55" y1="90" x2="215" y2="155">
+      <animate attributeName="stroke-opacity" values="0.1;0.35;0.1" dur="8.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="895" y1="65" x2="1005" y2="115">
+      <animate attributeName="stroke-opacity" values="0.15;0.45;0.15" dur="8s" repeatCount="indefinite"/>
+    </line>
+    <line x1="1005" y1="115" x2="1125" y2="75">
+      <animate attributeName="stroke-opacity" values="0.45;0.15;0.45" dur="5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="960" y1="205" x2="1005" y2="115">
+      <animate attributeName="stroke-opacity" values="0.2;0.4;0.2" dur="9s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- Network: nodes -->
+  <g filter="url(#nodeGlow)" fill="#00d9ff">
+    <g><circle cx="90" cy="205" r="2.4"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="7s" repeatCount="indefinite"/></g>
+    <g><circle cx="215" cy="155" r="2.8"/><animateTransform attributeName="transform" type="translate" values="0 0;0 7;0 0" dur="8.5s" repeatCount="indefinite"/></g>
+    <g><circle cx="330" cy="205" r="2.2"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="6.5s" repeatCount="indefinite"/></g>
+    <g><circle cx="55" cy="90" r="2"/><animateTransform attributeName="transform" type="translate" values="0 0;0 6;0 0" dur="9s" repeatCount="indefinite"/></g>
+    <g><circle cx="895" cy="65" r="2.4"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" dur="7.5s" repeatCount="indefinite"/></g>
+    <g><circle cx="1005" cy="115" r="3"/><animateTransform attributeName="transform" type="translate" values="0 0;0 6;0 0" dur="6s" repeatCount="indefinite"/></g>
+    <g><circle cx="1125" cy="75" r="2.2"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="8s" repeatCount="indefinite"/></g>
+    <g><circle cx="960" cy="205" r="2.4"/><animateTransform attributeName="transform" type="translate" values="0 0;0 7;0 0" dur="7s" repeatCount="indefinite"/></g>
+    <g><circle cx="1160" cy="175" r="2"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="9.5s" repeatCount="indefinite"/></g>
+  </g>
+
+  <!-- Ambient particles -->
+  <g fill="#8fedff">
+    <circle cx="180" cy="240" r="1.4"><animate attributeName="opacity" values="0;0.8;0" dur="6s" begin="0s" repeatCount="indefinite"/><animate attributeName="cy" values="240;200;240" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="420" cy="40" r="1.2"><animate attributeName="opacity" values="0;0.7;0" dur="7s" begin="1s" repeatCount="indefinite"/><animate attributeName="cy" values="40;10;40" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="760" cy="230" r="1.5"><animate attributeName="opacity" values="0;0.75;0" dur="5.5s" begin="2s" repeatCount="indefinite"/><animate attributeName="cy" values="230;195;230" dur="5.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1090" cy="40" r="1.3"><animate attributeName="opacity" values="0;0.8;0" dur="6.5s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="cy" values="40;10;40" dur="6.5s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="110" r="1"><animate attributeName="opacity" values="0;0.6;0" dur="8s" begin="3s" repeatCount="indefinite"/><animate attributeName="cy" values="110;80;110" dur="8s" repeatCount="indefinite"/></circle>
+    <circle cx="820" cy="60" r="1.2"><animate attributeName="opacity" values="0;0.7;0" dur="7.5s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="cy" values="60;30;60" dur="7.5s" repeatCount="indefinite"/></circle>
+    <circle cx="640" cy="250" r="1.4"><animate attributeName="opacity" values="0;0.75;0" dur="6.8s" begin="2.6s" repeatCount="indefinite"/><animate attributeName="cy" values="250;215;250" dur="6.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1150" cy="230" r="1"><animate attributeName="opacity" values="0;0.6;0" dur="9s" begin="4s" repeatCount="indefinite"/><animate attributeName="cy" values="230;200;230" dur="9s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Main identity text -->
+  <g text-anchor="middle">
+    <text x="600" y="140" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="url(#textGrad)" filter="url(#neonGlow)" opacity="0">
+      Umair Asfar
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.15;1" dur="1.6s" begin="0s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="0 14;0 14;0 0" keyTimes="0;0.15;1" dur="1.6s" begin="0s" fill="freeze"/>
+    </text>
+
+    <text x="600" y="176" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="500" fill="#8fedff" opacity="0">
+      Junior Full Stack Developer
+      <animate attributeName="opacity" values="0;0;0.92" keyTimes="0;0.3;1" dur="1.6s" begin="0.3s" fill="freeze"/>
+    </text>
+
+    <text x="600" y="206" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#8b949e" opacity="0">
+      Crafting scalable, production-grade web experiences
+      <animate attributeName="opacity" values="0;0;0.85" keyTimes="0;0.3;1" dur="1.6s" begin="0.55s" fill="freeze"/>
+    </text>
+
+    <rect x="520" y="222" width="0" height="2.5" rx="1.25" fill="url(#shimmer)">
+      <animate attributeName="width" values="0;160" dur="1s" begin="0.9s" fill="freeze"/>
+      <animate attributeName="x" values="600;520" dur="1s" begin="0.9s" fill="freeze"/>
+    </rect>
+  </g>
+</svg>

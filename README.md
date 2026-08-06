@@ -13,16 +13,12 @@
     width="100%">
 </p>
 
-<h1 align="center">
-  Umair Asfar – Junior Full Stack Developer
-</h1>
-
 <p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com/?font=Segoe+UI&size=22&duration=3000&pause=800&color=00D9FF&background=0D1117&center=true&vCenter=true&width=600&height=50&lines=Junior+Full+Stack+Developer;Building+Production-Grade+Web+Apps;Exploring+AI-Assisted+Engineering;Open+to+Remote+Opportunities"
+    src="https://readme-typing-svg.demolab.com/?font=Segoe+UI&size=22&duration=3000&pause=800&color=00D9FF&background=0D1117&center=true&vCenter=true&width=600&height=50&lines=Junior+Full+Stack+Developer;Building+Production-Grade+Web+Applications;React+%E2%80%A2+Next.js+%E2%80%A2+Node.js;Always+Learning+Something+New"
     alt="Animated typing text cycling through: Junior Full Stack Developer,
-      Building Production-Grade Web Apps, Exploring AI-Assisted Engineering,
-      Open to Remote Opportunities">
+      Building Production-Grade Web Applications, React, Next.js, Node.js,
+      Always Learning Something New">
 </p>
 
 <p align="center">📍 Sri Lanka</p>
@@ -48,12 +44,6 @@
   <a href="#connect">Connect</a>
 </p>
 
-<p align="center">
-  <img
-    src="https://img.shields.io/badge/status-open%20to%20remote%20opportunities-00D9FF?style=flat-square&labelColor=0A0E14"
-    alt="Availability status: open to remote software engineering opportunities">
-</p>
-
 <!-- ============================================================
      END SECTION: Navigation
      ============================================================ -->
@@ -68,11 +58,12 @@
 
 ## 👋 About Me
 
-- 💼 Junior Full Stack Developer focused on building reliable, production-grade web applications
+- 💼 Junior Full Stack Developer
 - 📍 Based in Sri Lanka
-- 🌱 Currently deepening my skills in AI-assisted software engineering
-- 🎯 Open to remote Software Engineering opportunities
-- 🛠️ Comfortable across the stack — interface, API, and database
+- 💛 Passionate about modern web development
+- 🧹 Care deeply about writing clean, maintainable code
+- 📈 Interested in designing scalable architecture
+- 📚 Committed to continuous learning
 
 <details>
 <summary>More about how I work</summary>
@@ -99,9 +90,9 @@ afterthoughts.
 
 ## 🎯 Current Focus
 
-- 🏗️ Building production-grade web applications, end to end
+- 🏗️ Building production-grade web applications
 - 🤖 Learning AI-assisted software engineering
-- 📡 Open to remote Software Engineering opportunities
+- 🧱 Exploring scalable backend architectures
 
 <!-- ============================================================
      END SECTION: Current Focus

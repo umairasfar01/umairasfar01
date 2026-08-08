@@ -61,18 +61,14 @@
 - 💼 Junior Full Stack Developer
 - 📍 Based in Sri Lanka
 - 💛 Passionate about modern web development
-- 🧹 Care deeply about writing clean, maintainable code
-- 📈 Interested in designing scalable architecture
-- 📚 Committed to continuous learning
 
 <details>
 <summary>More about how I work</summary>
 <br>
 
 I care about code that stays easy to read, test, and change months after it
-was written. I favor simple, well-named solutions over clever ones, and treat
-performance, accessibility, and scalability as requirements rather than
-afterthoughts.
+was written, and I favor simple, well-named solutions over clever ones. See
+[Development Principles](#principles) for the values that guide my work.
 
 </details>
 
@@ -309,26 +305,6 @@ retrieval, and collaboration.
 - Knowledge version history
 - Retrieval history
 - Modern SaaS architecture
-
-<!-- PROJECT CARD END -->
-
----
-
-<!-- PROJECT CARD START -->
-
-### 🔜 Coming Soon
-
-Another project write-up will go here.
-
-<!-- PROJECT CARD END -->
-
----
-
-<!-- PROJECT CARD START -->
-
-### 🔜 Coming Soon
-
-Another project write-up will go here.
 
 <!-- PROJECT CARD END -->
 

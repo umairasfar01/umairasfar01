@@ -347,13 +347,13 @@ Another project write-up will go here.
 ## 📫 Connect With Me
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/REPLACE_ME/">
+  <a href="https://www.linkedin.com/in/umair-asfar-25b785306/">
     <img
       src="https://img.shields.io/badge/LinkedIn-Connect-00D9FF?style=for-the-badge&logo=linkedin&logoColor=0A0E14&labelColor=0A0E14"
       alt="Connect with Umair Asfar on LinkedIn"
       loading="lazy">
   </a>
-  <a href="mailto:REPLACE_ME@example.com">
+  <a href="mailto:umairasfar.ua@outlook.com">
     <img
       src="https://img.shields.io/badge/Email-Contact-00D9FF?style=for-the-badge&labelColor=0A0E14"
       alt="Send Umair Asfar an email"
